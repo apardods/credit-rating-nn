@@ -1,0 +1,20 @@
+{
+    "Revenue": ["revenue", "sales", "total revenue", "net sales"],
+    "Cost of Revenues": ["cost of Revenue", "cost of sales", "cost of goods sold"],
+    "interest expense": ["interest expense", "interest cost"],
+    "Net income": ["net income", "profit", "net earnings", "net profit"],
+    "EPS": ["eps", "earnings per share", "diluted eps", "basic eps"],
+    "Current Assets": ["current assets", "total current assets"],
+    "PPE": ["property, plant, and equipment", "ppe", "fixed assets"],
+    "Total Assets": ["total assets"],
+    "Short-term Debt": ["short-term debt", "current portion of Long-term debt", "short-term borrowings"],
+    "Current Liabilities": ["current liabilities", "total current liabilities"],
+    "Long-term Debt": ["long-term debt", "non-current liabilities"],
+    "Total Liabilities": ["total liabilities"],
+    "equity": ["equity", "shareholder's equity", "stockholder's equity", "total equity"],
+    "Depreciation": ["depreciation", "depreciation and amortization"],
+    "Cash from Operations": ["cash from operating activities", "net cash provided by operating activities"],
+    "Cash in Financing": ["cash from financing activities", "net cash used in financing activities"],
+    "Cash in Investing": ["cash from investing activities", "net cash used in investing activities"],
+    "Cash": ["cash and cash equivalents", "cash"]
+}
