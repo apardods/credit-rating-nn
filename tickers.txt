@@ -1,4 +1,52 @@
-MSFT-US;NVDA-US;AMD-US;NFLX-US;AMZN-US;META-US;GOOGL-US;ADBE-US;CSCO-US;INTC-US;QCOM-US;TXN-US;BKNG-US;ADP-US;SNPS-US;LRCX-US;ADSK-US;EA-US;KLAC-US;VRTX-US;INTU-US;MCHP-US;ASML-US;TTWO-US;CTSH-US; - downloaded as batch_0
+MSFT-US;NVDA-US;AMD-US;NFLX-US;AMZN-US;META-US;GOOGL-US;ADBE-US;CSCO-US;INTC-US;QCOM-US;TXN-US;BKNG-US;ADP-US;SNPS-US;LRCX-US;ADSK-US;EA-US;KLAC-US;VRTX-US;INTU-US;MCHP-US;ASML-US;TTWO-US;CTSH-US; - batch_0
 
-MRVL-US;CDNS-US;ADI-US;MU-US;ON-US;NXPI-US;PANW-US;AVGO-US;SPLK-US;WDAY-US;FTNT-US;TEAM-US;CRWD-US;TTD-US;MDB-US;DDOG-US;AMAT-US;ZS-US;GFS-US;GEHC-US;CMCSA-US;PLTR-US;DELL-US;ZM-US;AZPN-US; - downloaded as batch_1
+MRVL-US;CDNS-US;ADI-US;MU-US;ON-US;NXPI-US;PANW-US;AVGO-US;SPLK-US;WDAY-US;FTNT-US;TEAM-US;CRWD-US;TTD-US;MDB-US;DDOG-US;AMAT-US;ZS-US;GFS-US;GEHC-US;CMCSA-US;PLTR-US;DELL-US;ZM-US;AZPN-US; - batch_1
 
+TMO-US;BABA-US;SHOP-US;SPOT-US;CRM-US;TWLO-US;NOW-US;SQ-US;UBER-US;LYFT-US;SNAP-US;DOCU-US;PINS-US;ROKU-US;DUK-US;COST-US;SBUX-US;SO-US;WMT-US;EXC-US;PG-US;V-US;XEL-US;DIS-US;SRE-US;MA-US;ES-US; - batch_2
+
+LLY-US;GILD-US;MO-US;MMM-US;AMT-US;ANTM-US;LMT-US;F-US;GM-US;RTX-US;NOC-US;COP-US;SO-US;PGR-US;KHC-US;SYK-US;TGT-US;DE-US;LOW-US;CI-US;AET-US;ALL-US;MON-US;ECL-US; - batch_3
+
+ITW-US;GD-US;SCHW-US;SPGI-US;MMC-US;CHTR-US;ISRG-US;TJX-US;BBY-US;SOFI-US;PYPL-US;SQ-US;TWTR-US;ABNB-US;TSLA-US; - batch_4
+
+BIIB-US;REGN-US;ILMN-US;GILD-US;CELG-US;BMRN-US;ALXN-US;MRNA-US;BLUE-US;SGEN-US;NKTR-US;EXEL-US;SRPT-US;ARWR-US;ALNY-US;BEAM-US;CRSP-US;NTLA-US;EDIT-US;DTIL-USQDEL-US;PACB-US;IONS-US;VRTX-US; - batch_5
+
+AAL-US;ALK-US;ANSS-US;APA-US;APH-US;ARNC-US;ATVI-US;BBY-US;BDX-US;BIIB-US;BMY-US;CCI-US;CHD-US;CLX-US;CME-US;CTAS-US;CTXS-US;DLTR-US;EA-US;EBAY-US;EFX-US;EOG-US;EQIX-US; - batch_6
+
+EQR-US;ES-US;ETN-US;ETR-US;EXPE-US;FISV-US;FLT-US;FMC-US;FOXA-US;GD-US;GPN-US;GPS-US;GRMN-US;HES-US;HIG-US;HUM-US;IDXX-US;IFF-US;INCY-US;INFO-US;IP-US;IPG-US;IQV-US;IRM-US; - batch_7
+
+IVZ-US;JBHT-US;JCI-US;JKHY-US;JNPR-US;K-US;KEY-US;KIM-US;KLAC-US;KMB-US;KMI-US;KR-US;L-US;LB-US;LEG-US;LH-US;LNC-US;LUV-US;LYB-US;M-US; - batch_8
+
+MAR-US;MAS-US;MCD-US;MCHP-US;MCK-US;MCO-US;MDLZ-US;MET-US;MGM-US;MHK-US;MKC-US;MLM-US;MOS-US;MPC-US;MRO-US;MS-US;MSI-US;MTB-US;MTD-US;MU-US; - batch_9
+
+NDAQ-US;NI-US;NKE-US;NOC-US;NRG-US;NSC-US;NTAP-US;NTRS-US;NUE-US;NVDA-US;NWSA-US;ODFL-US;OKE-US;OMC-US;ORCL-US;ORLY-US;OTIS-US;OXY-US;PAYX-US;PBCT-US;PCAR-US;PEG-US;PEP-US;PFE-US; - batch_10
+
+PFG-US;PH-US;PHM-US;PKG-US;PKI-US;PLD-US;PM-US;PNC-US;PPG-US;PPL-US;PRU-US;PSA-US;PSX-US;PVH-US;PWR-US;PXD-US;QRVO-US;RCL-US;RE-US; - batch_11
+
+RHI-US;RMD-US;ROK-US;ROL-US;ROP-US;ROST-US;SBAC-US;SJM-US;SLB-US;SNA-US;SPG-US;SRCL-US;STE-US;STT-US;STZ-US;SWK-US;SWKS-US;SYK-US;SYY-US;T-US;TAP-US; - batch_12
+
+TDG-US;TEL-US;TER-US;TFX-US;TIF-US;TJX-US;TMO-US;TMUS-US;TPR-US;TRV-US;TSCO-US;TSN-US;TT-US;TXT-US;TYL-US;UAA-US;UA-US;UAL-US;UDR-US;UHS-US;ULTA-US;UNH-US; - batch_13
+
+UNM-US;UNP-US;UPS-US;URI-US;USB-US;VFC-US;VIAC-US;VLO-US;VMW-US;VNO-US;VRSK-US;VRSN-US;VTR-US;VZ-US;WAB-US;WAT-US;WBA-US;WDC-US;WEC-US; - batch_14
+
+WELL-US;WFC-US;WHR-US;WMB-US;WRB-US;WRK-US;WU-US;WY-US;WYNN-US;XLNX-US;XOM-US;XRAY-US;XYL-US;YUM-US;ZBH-US;ZBRA-US;ZION-US;ZTS-US;AAP-US; - batch_15
+
+AZN-GB;BATS-GB;BP-GB;BHP-GB;RIO-GB;GSK-GB;DGE-GB;ULVR-GB;VOD-GB;IMB-GB;RELX-GB;CRH-GB;RDSA-GB;AAL-GB;CCL-GB;WPP-GB;PRU-GB;PSN-GB;TW-GB;BRBY-GB;RRS-GB;NG-GB;SSE-GB;IAG-GB; - batch_16
+
+LGEN-GB;ITV-GB;STAN-GB;PSON-GB;SMIN-GB;RR-GB;ADM-GB;BARC-GB;SKG-GB;CNA-GB;LLOY-GB;MNDI-GB;SDR-GB;STJ-GB;TSCO-GB;UU-GB;VCT-GB;SBRY-GB;RMV-GB;NXT-GB;MRW-GB;OCDO-GB;PFC-GB;PPB-GB; - batch_17
+
+AHT-GB;ANTO-GB;ABF-GB;ABDN-GB;AVST-GB;AVV-GB;BA-GB;BDEV-GB;BKG-GB;BLND-GB;BNZL-GB;CPG-GB;EXPN-GB;FRES-GB;GFS-GB;HLMA-GB;HSBA-GB;INF-GB;IHG-GB;ITRK-GB;JMAT-GB;KGF-GB;LAND-GB; - batch_18
+
+MGGT-GB;MRO-GB;NGG-GB;NMC-GB;PHNX-GB;RB-GB;RTO-GB;SGE-GB;SMT-GB;SN-GB;SVT-GB;TPK-GB;TUI-GB;VSVS-GB;WG-GB;WTB-GB;EVR-GB;FERG-GB;FLTR-GB;GVC-GB;HAS-GB;HL-GB;JD-GB;JET-GB;JII-GB; - batch_19 - NOT YET
+
+    "Cash from Operations": ["cash from operating activities", "net cash provided by operating activities", "cash provided by operating activities", "net cash from operations",
+    "net cash provided by (used in) operating activities", "cash flows from operating activities", "net cash flows provided by operating activities"],
+    "Cash in Financing": ["cash from financing activities", "net cash used in financing activities", "net cash provided by (used in) financing activities", "net cash from (used in) financing",
+    "net cash used in financing activities", "net cash used for financing activities", "net cash provided by (used for) financing activities", "cash flows from financing activities",
+    "net cash flows provided by/(used in) financing activities", "net cash flows provided by financing activities"],
+    "Cash in Investing": ["cash from investing activities", "net cash used in investing activities", "net cash provided by (used in) investing activities", "net cash used in investing",
+    "net cash provided by (used for) investing activities", "net cash used for investing activities", "cash flows from investing activities", "net cash flows used in investing activities"],
+    "Depreciation": ["depreciation", "depreciation and amortization", "depreciation, amortization, and other", "depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other",
+    "amortization of acquired intangible assets"],
+    "EPS": ["eps", "earnings per share", "diluted eps", "basic eps", "basic earnings per share (in dollars per share)","diluted earnings per share (in dollars per share)",
+    "basic (in dollars per share)", "basic (in usd per share)", "basic net income per share of class a, class b, and class c stock (in dollars per share)",
+    "basic net income per share", "basic"],
