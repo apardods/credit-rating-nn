@@ -1,5 +1,8 @@
 from data_load import load_data
-import binary_baseline
+import numpy as np
+import binary_baseline, binary_network
+
+np.random.seed(123)
 
 def classify_rating(rating):
     ordered_ratings = ['AAA', 'AA+', 'AA', 'AA-', 'A+', 'A', 'A-', 'BBB+', 'BBB', 'BBB-', 'BB+', 'BB', 'BB-', 'B+', 'B', 'B-']

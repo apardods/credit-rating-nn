@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
 def make_logreg(X_train, X_test, y_train, y_test):
-    model = LogisticRegression(max_iter=1000)
+    model = LogisticRegression(max_iter=1000, random_state=123)
     model.fit(X_train, y_train)
     predictions = model.predict(X_test)
     probabilities = model.predict_proba(X_test)[:, 1]
@@ -38,7 +38,7 @@ def make_knn(X_train, X_test, y_train, y_test):
 def make_models(df, cols, target):
     X = df[cols]
     y = df[target]
-    X_train, X_test, y_train, y_test = train_test_split(X, y)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)
     log_reg_metrics = make_logreg(X_train, X_test, y_train, y_test)
     knn_metrics = make_knn(X_train, X_test, y_train, y_test)
     combined = {'Logistic Regression': log_reg_metrics, 'kNN': knn_metrics}
