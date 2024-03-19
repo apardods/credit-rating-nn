@@ -17,11 +17,11 @@ def main():
             'Profit Margin', 'CS Interest', 'Gross Margin']
     target = 'Rating'
     df = load_data(ratio_cols + [target])
-    print(df['Rating'].value_counts())
     df['Group'] = df['Rating'].apply(classify_rating)
-    print(df['Group'].value_counts())
-    binary_baseline_results = make_binary_baseline(df, ratio_cols, 'Group')
-    print(binary_baseline_results)
+    # binary_baseline_results = make_binary_baseline(df, ratio_cols, 'Group')
+    # print(binary_baseline_results)
+    network_results = make_binary_classification(df, ratio_cols, 'Group')
+    print(network_results)
 
 if __name__ == '__main__':
     main()
