@@ -7,9 +7,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
-
-metrics = [tf.keras.metrics.Accuracy, tf.keras.metrics.Precision, tf.keras.metrics.Recall, tf.keras.metrics.F1Score, tf.keras.metrics.AUC]
-
 def make_fcnn_model(input_shape):
     model = Sequential([
         Dense(128, activation='relu', input_shape=input_shape),
@@ -19,7 +16,7 @@ def make_fcnn_model(input_shape):
         Dense(32, activation='relu'),
         Dense(1, activation='sigmoid')
     ])
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=metrics)
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
 def make_cnn_model(input_shape):
@@ -31,14 +28,20 @@ def make_cnn_model(input_shape):
         Dense(64, activation='relu'),
         Dense(1, activation='sigmoid')
     ])
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=metrics)
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
-def train_model(model, X_train, y_train, X_val, y_val, model_path):
+def train_model(model, X_train, y_train, X_test, y_test, model_path):
     checkpoint = ModelCheckpoint(model_path, monitor='val_accuracy', save_best_only=True, verbose=1)
     early_stopping = EarlyStopping(monitor='val_loss', patience=10, verbose=1, restore_best_weights=True)
-    history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_val, y_val),
-                        callbacks=[checkpoint, early_stopping], verbose=2)
+    history = model.fit(X_train,
+                        y_train,
+                        epochs=100,
+                        batch_size=32,
+                        validation_data=(X_test, y_test),
+                        callbacks=[checkpoint, early_stopping],
+                        verbose=2)
+    return history, model
     
 def evaluate_model(model, X_test, y_test):
     predictions = model.predict(X_test)
@@ -70,5 +73,9 @@ def make_binary_classification(df, cols, target):
     fcnn_model = make_fcnn_model(X_train.shape[1])
     cnn_model = make_cnn_model(X_train.shape[1])
 
+    
 
-    return metrics
+    fcnn_metrics = evaluate_model(fcnn_model, X_test, y_test)
+    cnn_metrics = evaluate_model(cnn_model, X_test, y_test)
+    combined = {'FCNN': fcnn_metrics, 'CNN': cnn_metrics}
+    return combined
