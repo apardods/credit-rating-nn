@@ -35,7 +35,7 @@ def make_knn(X_train, X_test, y_train, y_test):
     }
     return metrics
 
-def make_models(df, cols, target):
+def make_binary_baseline(df, cols, target):
     X = df[cols]
     y = df[target]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)

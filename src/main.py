@@ -1,6 +1,8 @@
-from data_load import load_data
 import numpy as np
-import binary_baseline, binary_network
+
+from data_load import load_data
+from binary_baseline import make_binary_baseline
+from binary_network import make_binary_classification
 
 np.random.seed(123)
 
@@ -18,7 +20,7 @@ def main():
     print(df['Rating'].value_counts())
     df['Group'] = df['Rating'].apply(classify_rating)
     print(df['Group'].value_counts())
-    binary_baseline_results = binary_baseline.make_models(df, ratio_cols, 'Group')
+    binary_baseline_results = make_binary_baseline(df, ratio_cols, 'Group')
     print(binary_baseline_results)
 
 if __name__ == '__main__':
